@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin: 0;padding: 0;	border: 0;	font-size: 100%;font: inherit;	}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block; margin:0px; padding:0px;}
+body {line-height: 1; font-family:Arial, Helvetica, sans-serif;}
+ol, ul {list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {	content: '';content: none;}
+table {	border-collapse: collapse;border-spacing: 0;}
+sup{ line-height:5px; font-size:75%;}
+img {margin:0px; padding:0px;}
+
+.wrapper {width:1000px;  margin:auto; border:1px solid #cccccc;background:url(../images/bottom2.jpg) no-repeat left bottom transparent;  } 
+.left_contain {width:235px; /*height:811px; background:#41c7f4 ;*/ float:left;position:relative	}
+.head {width:765px; height:64px; background:#f7a41b; float:left}
+.logo {background: none repeat scroll 0 0 #f5a400; padding: 5px 20px 0;}
+.get_set { padding: 50px 0 0 20px;} 
+.white {font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:20px; color:#FFF;}
+.card {/*margin:78px 0 0 15px;*/background:url(../images/card.png) no-repeat bottom; height:211px; width:220px;} 
+.bottom_patten {height:210px;}
+nav {width:500px; margin:0 0 0 20px;}
+nav li {float:left; margin:42px 5px 0 0;}
+.makemytrip {float:right; margin:10px 20px 0 0; width:190px; height:25px; z-index:9999; }
+.contain {width:526px;/*height:264px;*/float:left;}
+.contain_txt {font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#233f94; line-height:19px; margin:38px 17px 20px;}
+.contain_txt1 {font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#233f94; line-height:19px; margin:20px 17px 20px;}
+.account {width:203px; height:auto; background:#214096; float:left; padding-bottom:10px}
+.account ul{list-style: square url(../images/dot.png);  margin-left: 25px;}
+.account li{font-size:12px; color:#FFF; line-height:20px;font-family:Arial, Helvetica, sans-serif; padding:0 0px;	 }
+.account li a{ color:#FFF; text-decoration:none; }
+.account li a:hover{ color:#FFF; text-decoration:underline; }
+.heading {font-size:14px; color:#f6a31c !important; list-style:none; margin:10px 16px; line-height:18px; }
+.clear {clear:both;}
+.main { /*height: 272px; */margin-left: 255px;  width: 649px;}
+.box {width:188px; border:1px solid #f7a41b; height:290px; float:left; margin:0 10px 0 0;}
+.box2 {width:188px; border:1px solid #1b7fbe; height:290px; float:left; margin:0 10px 0 0;}
+.box3 {width:188px; border:1px solid #214096; height:290px; float:left; margin:0 10px 0 0;}
+.blue {font-size:12px; color:#233f94; padding:5px 15px 15px 10px; line-height:19px; text-align:left;}
+.voucher { margin:0px 15px 5px 0px; }
+.lear {margin-left:15px; bottom:0px; }
+.tnc {color: #233f94; font-size: 10px; line-height: 15px; margin: 10px 0 10px 0px;}
+.contain_mid { float: left; /*(height: 258px;*/ width: 762px;}
+
+.get_contan { height: 366px;   width: 632px; border:1px solid #f7a41b; float:left; margin-left:20px;}
+.set_bg {width:631px; height:39px; background:#fffaf2; border:1px solid #f7a41b; border-top:none;}
+.get_heading{font-size:13px; color:#f5a31c; line-height:16px; font-weight:bold; float:left; margin:12px 0 0 7px;}
+.img {float:left;}
+.get_text { clear: both; color: #214096; height: 131px; margin-top: 12px; width: 650px;}
+.get_text li{color:#214096; line-height:16px; font-size:12px; margin:4px 26px;; list-style-image:url(../images/yello.jpg);}
+.yello_line {height:1px; background:#f7a41b; width:600px; margin:auto; margin:10px 15px 10px 15px ;}
+.jet_tnc {font-size:9px; line-height:13px; padding:0px 15px; color:#214096;}
+
+.set_contan { height: 247px;   width: 632px; border:1px solid #1b7fbe; float:left; margin-left:20px;}
+.set_bg_blue {width:631px; height:38px; background:#f0f9fe; border:1px solid #1b7fbe; border-top:none;}
+.set_heading{font-size:13px; color:#1c7ebb; line-height:16px; font-weight:bold; float:left; margin:11px 0 0 10px;}
+.set_text { width:632px; height:82px; color:#214096; clear:both;}
+.set_text li{color:#214096; line-height:17px; font-size:12px; margin:4px 33px;; list-style-image:url(../images/blue_bult.jpg);}
+.blue_line {height:1px; background:#1b7fbe; width:600px; margin:auto; margin:19px 15px 10px 15px;}
+.setcard {font-size:12px; color:#233f94; margin:10px 20px 10px 13px; line-height:16px;}
+.set_tnc {font-size:10px; line-height:14px; padding:0px 15px; color:#214096;}
+.voucher { font-size:12px; color:#1c7ebb; font-weight:bold; margin:0px 13px;}
+
+.voucher2 { font-size:12px; color:#1c7ebb; font-weight:bold; margin:8px 13px;}
+.go_contan { height: 425px; width: 632px; border:1px solid #1b7fbe; float:left; margin:0 0 10px 20px;}
+.go_bg_blue {width:631px; height:38px; background:#eef2fa; border:1px solid #1b7fbe; border-top:none;}
+.go_heading{font-size:13px; color:#233f94; line-height:16px; font-weight:bold; float:left; margin:11px 0 0 10px;}
+.go_text { width:632px; height:53px; color:#214096; clear:both;}
+.go_text li{color:#214096; line-height:12px; font-size:12px; margin:4px 33px;; list-style-image:url(../images/blue_bult.jpg);}
+.go_blue_line {height:1px; background:#1b7fbe; width:600px; margin:auto; margin:10px 15px 8px 15px;}
+.go_card {font-size:12px; color:#233f94; margin:10px 20px 0px 13px; line-height:18px;}
+.text {font-size:12px; color:#233f94; margin:0px 20px 0px 13px; line-height:18px;}
+.go_tnc {color: #214096; font-size: 10px; line-height: 13px; margin: 5px 15px;}
+.tn2 {color: #233f94; font-size: 10px; line-height: 15px;}
+.none {list-style:none !important;}
+.tnc11 {margin:10px 0 10px 257px;}
+.cardtop {margin:40px 0 0 0px;} 
+.tnc_text {margin-top:5px;}
+.footer {width:1000px; padding:10px 20px; font-size:11px; margin:auto; line-height:16px; color:#233f94;}
+
+.login img{margin:5px 0px 15px 0; }
